@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -70,6 +71,7 @@ namespace _17_08_2020_ma_oefeningen__klasses_
 
         private void txtChannel_TextChanged(object sender, EventArgs e)
         {
+            
             if (System.Text.RegularExpressions.Regex.IsMatch(txtChannel.Text, "[^0-9]"))
             {
                 MessageBox.Show("Please enter only numbers.");
