@@ -37,7 +37,8 @@ namespace _17_08_2020_ma_oefeningen__klasses_
 
         private void btnOef4_Click(object sender, EventArgs e)
         {
-
+            oef4 oef4 = new oef4();
+            oef4.Show();
         }
 
         private void btnOef5_Click(object sender, EventArgs e)
